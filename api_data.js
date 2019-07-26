@@ -49,7 +49,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "{\n  \"manual\": \"false\",\n  \"id\": 1\n  \"creation\": \"2019-07-26T05:56:05.518Z\"\n  \"waterTemperature\": 67.5\n  \"airTemperature\": 21.1\n}",
+          "content": "{\n  \"manual\": false,\n  \"id\": 1\n  \"creation\": \"2019-07-26T05:56:05.518Z\"\n  \"waterTemperature\": 67.5\n  \"airTemperature\": 21.1\n}",
           "type": "json"
         }
       ]
