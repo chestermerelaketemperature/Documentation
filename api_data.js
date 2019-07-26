@@ -1,7 +1,7 @@
 define({ "api": [
   {
     "type": "get",
-    "url": "/api/latest",
+    "url": "/latest",
     "title": "Latest Snapshot",
     "version": "0.0.1",
     "name": "getLatest",
