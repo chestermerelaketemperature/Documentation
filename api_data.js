@@ -1,5 +1,33 @@
 define({ "api": [
   {
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "optional": false,
+            "field": "varname1",
+            "description": "<p>No type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "varname2",
+            "description": "<p>With type.</p>"
+          }
+        ]
+      }
+    },
+    "type": "",
+    "url": "",
+    "version": "0.0.0",
+    "filename": "./apidoc/main.js",
+    "group": "C__Users_Sean_Grover_OneDrive_Projects_workspace_Server_Handler_apidoc_main_js",
+    "groupTitle": "C__Users_Sean_Grover_OneDrive_Projects_workspace_Server_Handler_apidoc_main_js",
+    "name": ""
+  },
+  {
     "type": "get",
     "url": "/latest",
     "title": "Latest Snapshot",
@@ -54,7 +82,14 @@ define({ "api": [
         }
       ]
     },
-    "filename": "src/main/java/com/chestermere/lake/temperature/controllers/LatestController.java",
+    "examples": [
+      {
+        "title": "Example usage:",
+        "content": "$(document).ready(function() {\n\t$.ajax({\n\t\turl: \"http://api.chestermerelaketemperature.com/latest\"\n\t}).then(function(data) {\n\t\t$('.snapshot-creation').append(data.creation);\n\t\t$('.snapshot-air').append(data.airTemperature);\n\t\t$('.snapshot-water').append(data.waterTemperature);\n\t});\n});",
+        "type": "js"
+      }
+    ],
+    "filename": "./src/main/java/com/chestermere/lake/temperature/controllers/LatestController.java",
     "groupTitle": "Snapshots"
   }
 ] });
